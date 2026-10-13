@@ -42,3 +42,43 @@ To practice SQL queries and learn how businesses can use sales data to make bett
 ## Dataset
 
 Sample customer and sales data will be included in this repository for learning purposes.
+## SQL Concepts Used
+
+* CREATE DATABASE and CREATE TABLE
+* INSERT INTO
+* INNER JOIN and LEFT JOIN
+* GROUP BY and ORDER BY
+* Aggregate functions: SUM(), COUNT(), AVG()
+* Date functions for monthly sales analysis
+
+## Analysis Performed
+
+* Combined customer and order details using INNER JOIN
+* Calculated total revenue and profit by customer
+* Compared revenue across cities
+* Identified best-selling products
+* Checked customers without orders using LEFT JOIN
+* Analyzed monthly revenue and profit
+* Calculated average order value
+
+## Project Files
+
+* `customer_sales_analysis.sql` — Database and table creation
+* `insert_sample_data.sql` — Sample customer records
+* `insert_orders.sql` — Sample order records
+* `analysis_queries.sql` — SQL analysis queries
+
+## How to Run
+
+1. Open MySQL Workbench.
+2. Execute `customer_sales_analysis.sql`.
+3. Execute `insert_sample_data.sql`.
+4. Execute `insert_orders.sql`.
+5. Execute the queries in `analysis_queries.sql`.
+
+## Author
+
+B. Shravya
+
+GitHub: https://github.com/bandashravya
+
